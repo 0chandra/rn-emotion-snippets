@@ -1,5 +1,7 @@
 {
   "name": "rn-emotion-snippets",
+  "author": "Chandraprakash Suthar",
+  "repository": "https://github.com/0chandra/rn-emotion-snippets.git",
   "displayName": "Reactnative emotion snippets",
   "description": "Snippets for emotion+RN",
   "version": "0.0.1",
