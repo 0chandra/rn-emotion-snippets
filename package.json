@@ -1,0 +1,32 @@
+{
+  "name": "rn-emotion-snippets",
+  "displayName": "Reactnative emotion snippets",
+  "description": "Snippets for emotion+RN",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/index.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/index.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/index.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/index.json"
+      }
+    ]
+  }
+}

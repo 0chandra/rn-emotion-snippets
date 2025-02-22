@@ -1,0 +1,172 @@
+{
+    "Emotion View component with theme prop": {
+      "prefix": ["etcview", "etc-view"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:View}(({theme})=>({",
+        "    flex: 1",
+        "}))"
+      ],
+      "description": "Emotion View component with theme prop"
+    },
+    "Emotion View component - basic": {
+      "prefix": ["etview", "et-view"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:View}({",
+        "    flex: 1",
+        "})"
+      ],
+      "description": "Emotion View component without theme prop"
+    },
+    "Emotion Text component with theme prop": {
+      "prefix": ["etctext", "etc-text"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:Text}(({theme})=>({",
+        "    color: theme.colors.text",
+        "}))"
+      ],
+      "description": "Emotion Text component with theme prop"
+    },
+    "Emotion Text component - basic": {
+      "prefix": ["ettext", "et-text"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:Text}({",
+        "    color: '#000'",
+        "})"
+      ],
+      "description": "Emotion Text component without theme prop"
+    },
+    "Emotion TouchableOpacity with theme prop": {
+      "prefix": ["etctouch", "etc-touch"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:TouchableOpacity}(({theme})=>({",
+        "    padding: theme.spacing.medium",
+        "}))"
+      ],
+      "description": "Emotion TouchableOpacity component with theme prop"
+    },
+    "Emotion TouchableOpacity - basic": {
+      "prefix": ["ettouch", "et-touch"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:TouchableOpacity}({",
+        "    padding: 16",
+        "})"
+      ],
+      "description": "Emotion TouchableOpacity component without theme prop"
+    },
+    "Emotion Image component with theme prop": {
+      "prefix": ["etcimage", "etc-image"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:Image}(({theme})=>({",
+        "    width: 100,",
+        "    height: 100,",
+        "    resizeMode: 'cover'",
+        "}))"
+      ],
+      "description": "Emotion Image component with theme prop"
+    },
+    "Emotion Image component - basic": {
+      "prefix": ["etimage", "et-image"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:Image}({",
+        "    width: 100,",
+        "    height: 100,",
+        "    resizeMode: 'cover'",
+        "})"
+      ],
+      "description": "Emotion Image component without theme prop"
+    },
+    "Emotion ScrollView with theme prop": {
+      "prefix": ["etcscroll", "etc-scroll"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:ScrollView}(({theme})=>({",
+        "    flex: 1,",
+        "    backgroundColor: theme.colors.background",
+        "}))"
+      ],
+      "description": "Emotion ScrollView component with theme prop"
+    },
+    "Emotion ScrollView - basic": {
+      "prefix": ["etscroll", "et-scroll"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:ScrollView}({",
+        "    flex: 1,",
+        "    backgroundColor: '#fff'",
+        "})"
+      ],
+      "description": "Emotion ScrollView component without theme prop"
+    },
+    "Emotion TextInput with theme prop": {
+      "prefix": ["etcinput", "etc-input"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:TextInput}(({theme})=>({",
+        "    padding: theme.spacing.small,",
+        "}))"
+      ],
+      "description": "Emotion TextInput component with theme prop"
+    },
+    "Emotion TextInput - basic": {
+      "prefix": ["etinput", "et-input"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:TextInput}({",
+        "    padding: 8,",
+        "})"
+      ],
+      "description": "Emotion TextInput component without theme prop"
+    },
+    "Emotion FlatList with theme prop": {
+      "prefix": ["etclist", "etc-list"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:FlatList}(({theme})=>({",
+        "    flex: 1,",
+        "}))"
+      ],
+      "description": "Emotion FlatList component with theme prop"
+    },
+    "Emotion FlatList - basic": {
+      "prefix": ["etlist", "et-list"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:FlatList}({",
+        "    flex: 1,",
+        "})"
+      ],
+      "description": "Emotion FlatList component without theme prop"
+    },
+    "Emotion SafeAreaView with theme prop": {
+      "prefix": ["etcsafe", "etc-safe"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:SafeAreaView}(({theme})=>({",
+        "    flex: 1,",
+        "    backgroundColor: theme.colors.background",
+        "}))"
+      ],
+      "description": "Emotion SafeAreaView component with theme prop"
+    },
+    "Emotion SafeAreaView - basic": {
+      "prefix": ["etsafe", "et-safe"],
+      "body": [
+        "const ${1:$TM_FILENAME_BASE} = styled.${2:SafeAreaView}({",
+        "    flex: 1,",
+        "    backgroundColor: '#fff'",
+        "})"
+      ],
+      "description": "Emotion SafeAreaView component without theme prop"
+    },
+    "Emotion Button component with theme prop": {
+    "prefix": ["etcbutton", "etc-button"],
+    "body": [
+      "const ${1:$TM_FILENAME_BASE} = styled.${2:Pressable}(({theme})=>({",
+      "    backgroundColor: theme.colors.primary,",
+      "}))"
+    ],
+    "description": "Emotion Button component with theme prop"
+  },
+  "Emotion Button component - basic": {
+    "prefix": ["etbutton", "et-button"],
+    "body": [
+      "const ${1:$TM_FILENAME_BASE} = styled.${2:Pressable}({",
+      "    backgroundColor: '#007AFF',",
+      "})"
+    ],
+    "description": "Emotion Button component without theme prop"
+  }
+  }
